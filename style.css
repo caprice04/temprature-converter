@@ -1,0 +1,91 @@
+
+body{
+    margin: 20px;
+    font-family: "poppins";
+    background-color: #3ab2a2;
+    color: white;
+
+}
+
+#temp{
+    padding: 50px 0px 70px 0px;
+}
+
+.grid{
+    display: grid;
+    justify-content: center;
+}
+
+#H1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#P{
+    text-align: center;
+}
+
+#input{
+    display: inline;
+    text-align: center;
+}
+
+#Celsius,#Fahrenheit,#Kelvin{
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(253, 253, 253);
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px #aea8a8;
+    border-style: groove;
+
+}
+
+#submit {
+    font-size: 15px;
+}
+
+footer{
+    color: rgb(209,17,227);
+    font-size: 16px;
+    padding: 40px;
+    text-align: center;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 30px ;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0,3s;
+    border-radius: 10px;
+    border-style: groove;
+    box-shadow:2px 2px #696666 ;
+
+}
+
+button:hover{
+    background-color: #1bb96f;
+    color: #fcfcfc;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14,38,196);
+
+}
+a:hover{
+    color: #eb0000;
+}
+ 
